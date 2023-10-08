@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>o meu horario</title>
+    <style>
+
+        html {
+            max-width: 900px;
+            margin: auto;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-left: 50px;
+            color: rgb(29,62,99);
+        }
+
+        table, tr,td, th  {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        td, th {
+            width: 150px;
+            height: 50px;
+        }
+
+        th {
+            background-color:beige;
+        }
+
+        .alm {
+            background-color: lightgray;
+        }
+        
+
+        li {
+            margin: 0 0 10px 0;
+            font-size: 20px;
+            list-style-type: none;
+        }
+
+        .pt {
+            background-color: darksalmon;
+        }
+        .ef {
+            background-color: blueviolet;
+            color:white;
+            opacity: 80%;
+        }
+        .fis {
+            background-color:saddlebrown;
+        }
+        .mt {
+            background-color: blue;
+            color:white
+           
+        }
+        .inf {
+            background-color: forestgreen;
+        }
+
+        .leg {
+            width: 350px;
+            background-color: darkgray;
+            padding: 5px;
+            margin-top: 5px;
+        }
+
+        img {
+            width: 300px;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="./imagens/logo.png" />
+        <h1>Escola Secundária Santa Maria</h1>
+    </div>
+    <div >
+        <h2>Horário</h2>
+        <p><span style="font-weight: bold;">Turma</span>: 12º F</p>
+    </div>
+    
+    <div>
+    <table>
+        <tr>
+            <th>Horário</th>
+            <th>segunda-feira</th>
+            <th>terça-feira</th>
+            <th>quarta-feira</th>
+            <th>quinta-feira</th>
+            <th>sexta-feira</th>
+        </tr>
+        <tr>
+            <th>8:00/8:50</th>
+            <td></td>
+            <td></td>
+            <td class="pt">PORT</td>
+            <td class="ef">EF</td>
+            <td class="fis">FIS</td>
+            
+        </tr>
+        <tr>
+            <th>8:50/9:40</th>
+            <td></td>
+            <td class="mt">MAT</td>
+            <td class="pt">PORT</td>
+            <td class="ef">EF</td>
+            <td class="fis">FIS</td>
+        </tr>
+        <tr>
+            <th>9:55/10:45</th>
+            <td></td>
+            <td class="mt">MAT</td>
+            <td class="fis">FIS</td>
+            <td class="mt">MAT</td>
+            <td class="fis">FIS</td>
+
+        </tr>
+        <tr>
+            <th>10:45/11:35</th>
+            <td class="inf">AINF</td>
+            <td class="ef">EF</td>
+            <td class="mt">MAT</td>
+            <td class="mt">MAT</td>
+            <td class="fis">FIS</td>
+        </tr>
+        <tr>
+            <th>11:45/12:35</th>
+            <td class="inf">AINF</td>
+            <td class="pt">PORT</td>
+            <td class="mt">MAT</td>
+            <td class="inf">AINF</td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>12:40/13:30</th>
+            <td class="alm" colspan="5">Almoço</td>
+
+        </tr>
+        <tr>
+            <th>13:35/14:25</th>
+            <td class="pt">PORT</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>14:25/15:15</th>
+            <td class="pt">PORT</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        
+    </table>
+    </div>
+
+    <div >
+    <ul>
+        <li style="color: blue;">
+            MAT - Matemática
+        </li>
+        <li style="color:darksalmon">
+            PORT - Português
+        </li>
+        <li style="color: forestgreen;">
+            AINF - Aplicações  Informáticas
+        </li>
+        <li style="color: saddlebrown;">
+            FIS - Física
+        </li>
+        <li style="color: blueviolet;">
+            EF - Educação Física
+        </li>
+
+    </ul>
+    </div>
+    
+</body>
+</html>
